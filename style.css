@@ -5,82 +5,34 @@ body {
   background-image: url(mountain-scenery-vector-desktop-4k-blxxs2h9mzqcud0q.jpg);
 }
 
-@keyframes gradient {
-  0% {
-    background-position: 0% 0%;
-  }
-  50% {
-    background-position: 100% 100%;
-  }
-  100% {
-    background-position: 0% 0%;
-  }
-}
-
-.container-fluid {
-  background: rgb(255 255 255 / 25%);
-  border-radius: 1000% 1000% 0 0;
-  position: fixed;
-  width: 200%;
-  height: 12em;
-  animation: wave 10s -3s linear infinite;
-  transform: translate3d(0, 0, 0);
-  opacity: 0.8;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-}
-
-.container-fluid:nth-of-type(2) {
-  bottom: -1.25em;
-  animation: wave 18s linear reverse infinite;
-  opacity: 0.8;
-}
-
-.container-fluid:nth-of-type(3) {
-  bottom: -2.5em;
-  animation: wave 20s -1s reverse infinite;
-  opacity: 0.9;
-}
-
-@keyframes wave {
-  2% {
-    transform: translateX(1);
-  }
-
-  25% {
-    transform: translateX(-25%);
-  }
-
-  50% {
-    transform: translateX(-50%);
-  }
-
-  75% {
-    transform: translateX(-25%);
-  }
-
-  100% {
-    transform: translateX(1);
-  }
+*{
+  color: white !important;
+  font-family: Verdana, sans-serif;
 }
 
 .card {
-  background-color: rgba( 255, 255, 255, 0.25 ) !important ;
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 4px );
-  -webkit-backdrop-filter: blur( 4px ) !important;
+  background-color: rgba(255, 255, 255, 0.25) !important ;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px) !important;
   border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
-.form-control{
-  background-color: rgba(140, 138, 138, 0.25) !important ;
-}
-
-.form-label, a, p{
-  color: white !important;
+.form-control {
+  background-color: rgba(255, 255, 255, 0.25) !important ;
 }
 
-.btn{
+
+.btn {
   width: 100%;
+}
+
+dd{
+  font-size: medium;
+}
+
+
+.form-control:focus{
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important;
+  border: 2px solid #00a9ea !important;
 }
