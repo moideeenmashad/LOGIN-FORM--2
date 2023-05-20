@@ -1,17 +1,8 @@
 body {
   margin: auto;
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   overflow: auto;
-  background: linear-gradient(
-    315deg,
-    rgb(255, 0, 238) 3%,
-    rgb(46, 112, 177) 38%,
-    rgba(48, 238, 226, 1) 68%,
-    rgb(199, 237, 129) 98%
-  );
-  animation: gradient 15s ease infinite;
-  background-size: 400% 400%;
-  background-attachment: fixed;
+  background-size: 100%;
+  background-image: url(mountain-scenery-vector-desktop-4k-blxxs2h9mzqcud0q.jpg);
 }
 
 @keyframes gradient {
@@ -72,4 +63,24 @@ body {
   100% {
     transform: translateX(1);
   }
+}
+
+.card {
+  background-color: rgba( 255, 255, 255, 0.25 ) !important ;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px ) !important;
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.form-control{
+  background-color: rgba(140, 138, 138, 0.25) !important ;
+}
+
+.form-label, a, p{
+  color: white !important;
+}
+
+.btn{
+  width: 100%;
 }
